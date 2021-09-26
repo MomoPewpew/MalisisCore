@@ -7,11 +7,11 @@ buildscript {
 		}
 		maven {
 			name = 'forge-repo'
-			url = 'http://files.minecraftforge.net/maven/'
+			url = 'https://maven.minecraftforge.net'
 		}
 		maven {
 			name = 'sponge'
-			url = 'http://repo.spongepowered.org/maven'
+			url = 'https://repo.spongepowered.org/repository/maven-public'
 		}
 	}
 	dependencies {
@@ -42,7 +42,7 @@ repositories {
 	}
 	maven {
 		name = 'sponge'
-		url = 'http://repo.spongepowered.org/maven'
+		url = 'https://repo.spongepowered.org/repository/maven-public'
 	}
 }
 
